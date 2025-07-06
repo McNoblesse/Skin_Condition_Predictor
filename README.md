@@ -57,7 +57,7 @@ Conv2D → MaxPooling → Conv2D → MaxPooling → Flatten → Dense → Output
 - 🧪 Test Accuracy: 83.33%
 - 📉 Test Loss: 0.6143
 - 🕐 Training Time: ~13s
-🟡 Comment: Basic CNN showed decent performance but struggled with generalizing on real-life images. Serves well as a foundational benchmark.
+- 🟡 Comment: Basic CNN showed decent performance but struggled with generalizing on real-life images. Serves well as a foundational benchmark.
 
 ### 2️⃣ ResNet50 (Transfer Learning)
 ⚙️ **Architecture**
@@ -69,7 +69,7 @@ GlobalAveragePooling2D → Dense(128) → Dropout → Softmax
 - ✅ Test Accuracy: 96.61%
 - 📉 Test Loss: 0.1118
 - 🕐 Training Time: ~116s
-🟢 Comment: Excellent performance. Handled subtle differences between conditions. A few real-world samples were misclassified.
+- 🟢 Comment: Excellent performance. Handled subtle differences between conditions. A few real-world samples were misclassified.
 
 ### 3️⃣ EfficientNetB0 (Fine-Tuned Transfer Learning ✅ Best Performer)
 ⚙️ **Architecture**
@@ -82,7 +82,7 @@ GlobalAvgPool → Dense(128) → Dropout(0.3) → Dense(6)
 - 🥇 Test Accuracy: 98.44%
 - 📉 Test Loss: 0.0480
 - 🕐 Training Time: ~33s
-🌟 Comment: Best-performing model — highest accuracy, robust generalization, excellent prediction on unseen real-world images.
+- 🌟 Comment: Best-performing model — highest accuracy, robust generalization, excellent prediction on unseen real-world images.
 
 ## 🔍 Evaluation Highlights
 
@@ -106,3 +106,37 @@ GlobalAvgPool → Dense(128) → Dropout(0.3) → Dense(6)
 - 💯 High confidence predictions
 - 🎯 Accurate classification
 - 🔍 Consistency across all 6 skin conditions
+
+## 💾 Model Export Options
+- ✅ .keras – Recommended format for modern deployment
+- ✅ .h5 – HDF5 legacy format (optional)
+- 🔜 Optional: Convert to TensorFlow Lite for mobile devices
+
+## 📚 Future Enhancements
+- ✅ Add rare skin conditions
+- ✅ Integrate dermoscopic images
+- ✅ Implement Grad-CAM or SHAP for interpretability
+
+## 🙌 Credits
+| Role            | Person / Tool                         |
+| --------------- | ------------------------------------- |
+| 👤 Project Lead | *Joshua Oluwole                       |
+| 🗂️ Dataset     | Custom folder-organized image dataset |
+| ⚙️ Framework    | TensorFlow + Keras                    |
+| 📈 Tools        | Sklearn, Matplotlib, Seaborn          |
+
+## 🚀 Run This Project Locally
+```plaintext
+git clone https://github.com/McNoblesse/Skin_Condition_Predictor.git
+cd Skin_Condition_Predictor
+python classify_skin_conditions.py
+```
+
+## 🧠 Let's Connect
+💬 Got questions, ideas or contributions?
+- Reach out via email: nobleinepth@gmail.com
+
+**Made with 💙 using TensorFlow & Deep Learning**
+
+
+
