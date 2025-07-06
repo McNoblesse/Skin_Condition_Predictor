@@ -1,4 +1,4 @@
-# 🧠 Skin Condition Predictor 🩺 | CNN · | CNN \xb7 ResNet50 · | CNN \xb7 ResNet50 \xb7 EfficientNetB0 + Streamlit App 🎨
+# 🧠 Skin Condition Predictor 🩺 | · CNN · | ·  ResNet50 · | · EfficientNetB0 · + Streamlit App 🎨
 
 > A deep learning project built to automatically classify six common skin conditions using real-world images. This project leverages transfer learning, CNN architectures, and an interactive Streamlit web app to achieve high precision in dermatological diagnostics and user accessibility.
 
