@@ -84,6 +84,8 @@ GlobalAvgPool → Dense(128) → Dropout(0.3) → Dense(6)
 - 🕐 Training Time: ~33s
 - 🌟 Comment: Best-performing model — highest accuracy, robust generalization, excellent prediction on unseen real-world images.
 
+---
+
 ## 🔍 Evaluation Highlights
 
 | **Model**            | **Test Accuracy** | **Test Loss** | **Real-world Performance**                   |
@@ -92,51 +94,74 @@ GlobalAvgPool → Dense(128) → Dropout(0.3) → Dense(6)
 | 🌀 **ResNet50**      |            96.61% |        0.1118 | ✅ Great accuracy, minor misclassifications   |
 | ⚡ **EfficientNetB0** |        **98.44%** |    **0.0480** | 🏆 Best performer – near-perfect predictions |
 
-## 🖼️ Visual Results
-📷 Sample Prediction Display
-✅ Pred: Eczema       ✅ Pred: Rosacea       ✅ Pred: Milia
+---
 
-## 📉 Training History
-- Visualized with accuracy/loss curves
-- Used EarlyStopping and ReduceLROnPlateau callbacks
-- EfficientNet converged fastest with highest peak performance
+## 🖼️ Visual Results
+
+### 📷 Sample Prediction Display
+✅ Pred: Eczema  ✅ Pred: Rosacea  ✅ Pred: Milia
+
+Visualizations created using matplotlib and model predictions. Images are displayed with both **true labels** and **model predictions** (color-coded based on accuracy).
+
+### 📉 Training History
+
+- Plotted accuracy/loss graphs for each model
+- Used callbacks like `EarlyStopping` and `ReduceLROnPlateau` for stability
+- EfficientNet converged fastest and most efficiently
+
+---
 
 ## 🧪 External Image Testing
-✅ EfficientNetB0 showed high generalization with:
-- 💯 High confidence predictions
-- 🎯 Accurate classification
-- 🔍 Consistency across all 6 skin conditions
 
-## 💾 Model Export Options
-- ✅ .keras – Recommended format for modern deployment
-- ✅ .h5 – HDF5 legacy format (optional)
-- 🔜 Optional: Convert to TensorFlow Lite for mobile devices
+EfficientNetB0 was also tested on external (real-world) images:
+- 💯 High confidence predictions
+- 📌 Accurate class prediction
+- ✅ Strong generalization across all 6 skin categories
+
+---
+
+## 💾 Model Export
+
+Models saved in multiple formats:
+- ✅ `.keras` – Native Keras model format
+- ✅ `.h5` – Legacy HDF5 format (optional)
+- 🔄 TensorFlow Lite conversion supported (for mobile deployment)
+
+---
 
 ## 📚 Future Enhancements
-- ✅ Add rare skin conditions
-- ✅ Integrate dermoscopic images
-- ✅ Implement Grad-CAM or SHAP for interpretability
+
+- ✅ Add rare or underrepresented skin conditions
+- ✅ Add dermoscopic images for better depth
+- ✅ Deploy via Streamlit or Flask web app
+- ✅ Integrate model explainability (e.g., Grad-CAM)
+
+---
 
 ## 🙌 Credits
+
 | Role            | Person / Tool                         |
 | --------------- | ------------------------------------- |
-| 👤 Project Lead | *Joshua Oluwole                       |
+| 👤 Project Lead | *Joshua Oluwole*                     |
 | 🗂️ Dataset     | Custom folder-organized image dataset |
 | ⚙️ Framework    | TensorFlow + Keras                    |
 | 📈 Tools        | Sklearn, Matplotlib, Seaborn          |
 
+---
+
 ## 🚀 Run This Project Locally
-```plaintext
+
+```bash
 git clone https://github.com/McNoblesse/Skin_Condition_Predictor.git
 cd Skin_Condition_Predictor
 python classify_skin_conditions.py
 ```
 
+---
+
 ## 🧠 Let's Connect
-💬 Got questions, ideas or contributions?
-- Reach out via email: nobleinepth@gmail.com
+💬 Got questions, ideas, or contributions?
+- Reach out via email: **nobleinepth@gmail.com**
+- Or submit an issue or pull request on GitHub
 
 **Made with 💙 using TensorFlow & Deep Learning**
-
-
-
