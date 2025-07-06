@@ -1,0 +1,336 @@
+Clinical Dashboard Insights 
+-------------------------------------
+{
+  "data": {
+    "patient_001": [
+      {
+        "timestamp": "2025-07-05T09:00:00",
+        "Temperature": 38.5,
+        "SpO2": 89,
+        "Glucose": 130,
+        "ECG (Heart Rate)": 120,
+        "Blood Pressure (Systolic)": 155,
+        "Blood Pressure (Diastolic)": 98,
+        "Weight (BMI)": 34.2,
+        "Waist Circumference": 110,
+        "Malaria": "Positive",
+        "Hepatitis B": "Negative",
+        "HIV": "Negative",
+        "Lung Capacity": 2.1,
+        "Widal Test": {
+          "Typhi O": "Reactive",
+          "Typhi H": "Non-Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_002": [
+      {
+        "timestamp": "2025-07-05T09:30:00",
+        "Temperature": 36.5,
+        "SpO2": 95,
+        "Glucose": 88,
+        "ECG (Heart Rate)": 76,
+        "Blood Pressure (Systolic)": 122,
+        "Blood Pressure (Diastolic)": 78,
+        "Weight (BMI)": 24.1,
+        "Waist Circumference": 80,
+        "Malaria": "Negative",
+        "Hepatitis B": "Negative",
+        "HIV": "Negative",
+        "Lung Capacity": 3.6,
+        "Widal Test": {
+          "Typhi O": "Non-Reactive",
+          "Typhi H": "Non-Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_003": [
+      {
+        "timestamp": "2025-07-05T10:00:00",
+        "Temperature": 39.1,
+        "SpO2": 91,
+        "Glucose": 115,
+        "ECG (Heart Rate)": 62,
+        "Blood Pressure (Systolic)": 148,
+        "Blood Pressure (Diastolic)": 94,
+        "Weight (BMI)": 29.9,
+        "Waist Circumference": 101,
+        "Malaria": "Positive",
+        "Hepatitis B": "Positive",
+        "HIV": "Negative",
+        "Lung Capacity": 1.9,
+        "Widal Test": {
+          "Typhi O": "Non-Reactive",
+          "Typhi H": "Reactive",
+          "Paratyphi AH": "Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_004": [
+      {
+        "timestamp": "2025-07-05T10:30:00",
+        "Temperature": 37.2,
+        "SpO2": 96,
+        "Glucose": 105,
+        "ECG (Heart Rate)": 99,
+        "Blood Pressure (Systolic)": 130,
+        "Blood Pressure (Diastolic)": 85,
+        "Weight (BMI)": 26.7,
+        "Waist Circumference": 90,
+        "Malaria": "Negative",
+        "Hepatitis B": "Negative",
+        "HIV": "Negative",
+        "Lung Capacity": 3.9,
+        "Widal Test": {
+          "Typhi O": "Non-Reactive",
+          "Typhi H": "Non-Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_005": [
+      {
+        "timestamp": "2025-07-05T11:00:00",
+        "Temperature": 38.4,
+        "SpO2": 90,
+        "Glucose": 125,
+        "ECG (Heart Rate)": 108,
+        "Blood Pressure (Systolic)": 145,
+        "Blood Pressure (Diastolic)": 92,
+        "Weight (BMI)": 31.5,
+        "Waist Circumference": 108,
+        "Malaria": "Negative",
+        "Hepatitis B": "Negative",
+        "HIV": "Positive",
+        "Lung Capacity": 2.2,
+        "Widal Test": {
+          "Typhi O": "Reactive",
+          "Typhi H": "Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_006": [
+      {
+        "timestamp": "2025-07-05T11:30:00",
+        "Temperature": 36.9,
+        "SpO2": 98,
+        "Glucose": 92,
+        "ECG (Heart Rate)": 84,
+        "Blood Pressure (Systolic)": 128,
+        "Blood Pressure (Diastolic)": 80,
+        "Weight (BMI)": 22.0,
+        "Waist Circumference": 78,
+        "Malaria": "Negative",
+        "Hepatitis B": "Negative",
+        "HIV": "Negative",
+        "Lung Capacity": 4.1,
+        "Widal Test": {
+          "Typhi O": "Non-Reactive",
+          "Typhi H": "Non-Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Non-Reactive"
+        }
+      }
+    ],
+    "patient_007": [
+      {
+        "timestamp": "2025-07-05T12:00:00",
+        "Temperature": 37.8,
+        "SpO2": 93,
+        "Glucose": 117,
+        "ECG (Heart Rate)": 95,
+        "Blood Pressure (Systolic)": 139,
+        "Blood Pressure (Diastolic)": 88,
+        "Weight (BMI)": 28.9,
+        "Waist Circumference": 99,
+        "Malaria": "Negative",
+        "Hepatitis B": "Positive",
+        "HIV": "Negative",
+        "Lung Capacity": 2.3,
+        "Widal Test": {
+          "Typhi O": "Non-Reactive",
+          "Typhi H": "Non-Reactive",
+          "Paratyphi AH": "Non-Reactive",
+          "Paratyphi BH": "Reactive"
+        }
+      }
+    ]
+  }
+}
+
+
+===================================
+===================================
+Patient Vital Trends 
+---------------------------
+{
+  "patient_id": "patient_001",
+  "patient_data": [
+    {
+      "timestamp": "2025-07-01T08:00:00",
+      "Temperature": 36.7,
+      "SpO2": 96,
+      "Glucose": 98,
+      "ECG (Heart Rate)": 78,
+      "Blood Pressure (Systolic)": 135,
+      "Blood Pressure (Diastolic)": 85,
+      "Weight (BMI)": 25.5,
+      "Waist Circumference": 94,
+      "Lung Capacity": 4.8
+    },
+    {
+      "timestamp": "2025-07-04T08:00:00",
+      "Temperature": 38.0,
+      "SpO2": 92,
+      "Glucose": 115,
+      "ECG (Heart Rate)": 101,
+      "Blood Pressure (Systolic)": 148,
+      "Blood Pressure (Diastolic)": 92,
+      "Weight (BMI)": 26.2,
+      "Waist Circumference": 98,
+      "Lung Capacity": 4.3
+    }
+  ]
+}
+
+------------------------------
+{
+  "patient_id": "patient_002",
+  "patient_data": [
+    {
+      "timestamp": "2025-07-01T09:00:00",
+      "Temperature": 37.1,
+      "SpO2": 96,
+      "Glucose": 100,
+      "ECG (Heart Rate)": 84,
+      "Blood Pressure (Systolic)": 130,
+      "Blood Pressure (Diastolic)": 88
+    },
+    {
+      "timestamp": "2025-07-03T09:00:00",
+      "Temperature": 38.0,
+      "SpO2": 93,
+      "Glucose": 115,
+      "ECG (Heart Rate)": 95,
+      "Blood Pressure (Systolic)": 144,
+      "Blood Pressure (Diastolic)": 92
+    },
+    {
+      "timestamp": "2025-07-05T09:00:00",
+      "Temperature": 38.4,
+      "SpO2": 91,
+      "Glucose": 122,
+      "ECG (Heart Rate)": 102,
+      "Blood Pressure (Systolic)": 149,
+      "Blood Pressure (Diastolic)": 97
+    }
+  ]
+}
+
+=========================================
+==========================================
+Doctor Smart Summary Generator
+------------------------------------------
+
+{
+  "patient_id": "patient_007",
+  "records": {
+    "vitals": {
+      "Temperature": 38.5,
+      "SpO2": 90,
+      "Glucose": 115,
+      "ECG (Heart Rate)": 110
+    },
+    "symptoms": [
+      {"name": "Fatigue", "severity": 4},
+      {"name": "Headache", "severity": 3}
+    ],
+    "test_results": {
+      "HIV": "Negative",
+      "Hepatitis B": "Positive",
+      "Widal Test": "Reactive"
+    },
+    "reproductive": {
+      "mode": "cycle",
+      "start_date": "2025-06-25",
+      "period_duration": 5
+    },
+    "mental_health": {
+      "phq9": 13,
+      "gad7": 10,
+      "note": "Patient reports work-related stress."
+    },
+    "doctor_notes": "Monitor liver profile in 2 weeks. Possible mild anemia."
+  }
+}
+============================================================
+============================================================
+Differential Diagnosis Assistant
+-------------------------------------------
+{
+  "vitals": {
+    "Temperature": 36.6,
+    "Glucose": 182,
+    "SpO2": 97,
+    "ECG (Heart Rate)": 89,
+    "Blood Pressure (Systolic)": 152,
+    "Blood Pressure (Diastolic)": 96,
+    "Widal Test": {
+      "Typhi O": "Non-Reactive",
+      "Typhi H": "Non-Reactive",
+      "Paratyphi AH": "Non-Reactive",
+      "Paratyphi BH": "Non-Reactive"
+    },
+    "Malaria": "Negative",
+    "Weight (BMI)": 33.4,
+    "Waist Circumference": 104,
+    "Hepatitis B": "Positive",
+    "HIV": "Negative",
+    "Lung Capacity": 2.4
+  },
+  "symptoms": ["Blurred vision", "Fatigue", "Excessive thirst"],
+  "history": ["Diabetes in family", "Sedentary lifestyle", "Recent fatigue", "Liver discomfort"]
+}
+
+--------------------------------------------------------------
+{
+  "vitals": {
+    "Temperature": 38.9,
+    "Glucose": 102,
+    "SpO2": 93,
+    "ECG (Heart Rate)": 104,
+    "Blood Pressure (Systolic)": 125,
+    "Blood Pressure (Diastolic)": 82,
+    "Widal Test": {
+      "Typhi O": "Reactive",
+      "Typhi H": "Reactive",
+      "Paratyphi AH": "Non-Reactive",
+      "Paratyphi BH": "Non-Reactive"
+    },
+    "Malaria": "Positive",
+    "Weight (BMI)": 21.3,
+    "Waist Circumference": 76,
+    "Hepatitis B": "Negative",
+    "HIV": "Negative",
+    "Lung Capacity": 3.1
+  },
+  "symptoms": ["Fatigue", "Headache", "Nausea", "Fever", "Chills"],
+  "history": ["Recent travel to endemic region", "Mild GI upset"]
+}
+
+==========================================================
+
+
+
+
+
+
+
